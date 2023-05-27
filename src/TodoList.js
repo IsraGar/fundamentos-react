@@ -1,7 +1,7 @@
-function TodoList(props){
+function TodoList({children}){
     return(
       <ul>
-        {props.chlidren}
+        {children}
       </ul>
     );
 }
